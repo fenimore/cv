@@ -27,7 +27,7 @@
             "startDate": "2015-05-01",
             "endDate": "2016-09-27",
             "highlights": ["Android", "Bootstrap", "Sysadmin", "Twitter-API"],
-            "summary": "During my time as a freelance developer I've been tasked to create a variety of applications and websites. Namely, I've made an Android app for a non-profit organization Knowledge Ecology International. In addition, I've created and set up hosting for portfolio websites. Finally, I created and maintained popular Open Source Applications such as Democracy Droid! and The Treasure Map."
+            "summary": "I created a variety of applications and websites. Namely, I published an Android app for the non-profit organization Knowledge Ecology International. In addition, I created and set up hosting for portfolio websites. I also created and maintained popular Open Source Applications such as Democracy Droid! and The Treasure Map."
         },
         {
             "company": "Ecole Elementaire Bruxelles",
@@ -35,7 +35,7 @@
             "location": "Paris, France",
             "startDate": "2016-01-01",
             "endDate": "2016-07-04",
-            "highlights": ["Scratch"],
+            "highlights": ["Scratch", "Fundementals"],
             "summary": "I taught video game development and basic programming to three classes of nine and ten year old children. This included basic concepts such as loops, conditionals, two dimensional planes, and threading. In addition, I taught video-game storyline, art, and music design."
         },
         {
@@ -57,7 +57,7 @@
             "gpa":"",
             "startDate": "2016-09-27",
             "endDate": "2016-12-15",
-            "note": "My time at Recurse involved a variety of projects and activities which have greatly improved my capacities as a programmer. Among my projects, and those I've worked on with others, three were particularly rewarding and challenging:",
+            "note": "My time at Recurse has involved a variety of projects and activities which have greatly improved my capacities as a programmer. Among my projects, and those I've worked on with others, three were particularly rewarding and challenging:",
             "projects": ["Implemented a chess AI",
                          "Developed and Deployed an API and Database",
                          "Implemented the BitTorrent protocol and client"]
@@ -85,7 +85,7 @@
         }],
     "skills": [
         {
-            "name": "Languages",
+            "name": "Programming Languages",
             "keywords": ["Go", "Python",
                          "Java", "PHP",
                          "Bash"]
@@ -117,8 +117,11 @@
         {
             "name": "Other",
             "keywords": ["Communication", "Critical Theory",
-                         "Editing", "English",
-                         "French", "Latin"]
+                         "Editing"]
+        },
+        {
+            "name": "Language",
+            "keywords": ["English", "French", "Latin"]
         }
 
     ]
