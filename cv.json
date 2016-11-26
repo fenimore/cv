@@ -106,7 +106,7 @@
         {
             "name": "Databases",
             "keywords": ["MySQL", "SQLite",
-                         "PostgresSQL"]
+                         "PostgresSQL", "BoltDB"]
         },
         {
             "name": "API",
@@ -120,8 +120,10 @@
         }
 
     ],
-  "references": [{
-    "name": "Upon Request",
-    "reference": ""
-  }]
+  "references": [
+      {
+        "name": "Upon Request",
+        "reference": ""
+      }
+  ]
 }
