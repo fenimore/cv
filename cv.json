@@ -7,9 +7,9 @@
         "website": "http://another.workingagenda.com",
         "summary": "",
         "location": {
-            "address": "303 East 43rd Street",
-            "postalCode": "NY 10017",
-            "city": "New York",
+            "address": "New York 10017",
+            "postalCode": "",
+            "city": "",
             "countryCode": "US",
             "region": ""
         },
@@ -57,8 +57,8 @@
             "gpa":"",
             "startDate": "2016-09-27",
             "endDate": "2016-12-15",
-            "note": "My time at Recurse has involved a variety of projects and activities which have greatly improved my capacities as a programmer. Among my projects, and those I've worked on with others, three were particularly rewarding and challenging:",
-            "projects": ["Implemented a chess AI",
+            "note": "At the Recurse Center participated in a variety of projects and activities which have greatly improved my capacities as a programmer. Among my projects, and those I collaborated on with others, three were particularly rewarding and challenging:",
+            "projects": ["Implemented a chess AI and websocket client",
                          "Developed and Deployed an API and Database",
                          "Implemented the BitTorrent protocol and client"]
         },
@@ -70,18 +70,18 @@
             "gpa":"",
             "startDate": "2013-09-01",
             "endDate": "2015-06-21",
-            "note": "A comparison of ancient literary practice and the Copy Left movement",
-            "projects": ["The Work of Text in the Age of Digital Reproduction: ", "A Comparison of Ancient Literary Practice and the Copy Left Movement"]
+            "note": "Focus on sociology of religion and critical theory.",
+            "projects": ["  The Work of Text in the Age of Digital Reproduction: ", "A Comparison of Ancient Literary Practice and the Copy Left Movement"]
         },
         {
             "institution": "McGill University",
             "area": "",
-            "gpa":"",
+            "gpa": "",
             "location":"Montreal Canada",
             "studyType": "Bachelor of Religious Studies",
             "startDate": "2009-09-01",
             "endDate": "2013-06-21",
-            "note": "Focus on exegesis of classical texts and philosophy of religion."
+            "note": "Focus on exegesis of classical texts (in Latin and Greek) and the philosophy of religion."
         }],
     "skills": [
         {
@@ -115,14 +115,13 @@
                          "Youtube"]
         },
         {
-            "name": "Other",
-            "keywords": ["Communication", "Critical Theory",
-                         "Editing"]
-        },
-        {
-            "name": "Language",
-            "keywords": ["English", "French", "Latin"]
+            "name": "Spoken Languages",
+            "keywords": ["English", "French"]
         }
 
-    ]
+    ],
+  "references": [{
+    "name": "Upon Request",
+    "reference": ""
+  }]
 }
