@@ -1,0 +1,125 @@
+{
+    "basics": {
+        "name": "Fenimore P. Love",
+        "label": "",
+        "email": "fenimoreplove@gmail.com",
+        "phone": "(571) 314-7727",
+        "website": "http://another.workingagenda.com",
+        "summary": "",
+        "location": {
+            "address": "303 East 43rd Street",
+            "postalCode": "NY 10017",
+            "city": "New York",
+            "countryCode": "US",
+            "region": ""
+        },
+        "profiles": [{
+            "network": "Github",
+            "username": "polypmer",
+            "url": "https://github.com/polypmer"
+        }]
+    },
+    "work": [
+        {
+            "company": "Web and Android Developer",
+            "position": "Freelance",
+            "location": "",
+            "startDate": "2015-05-01",
+            "endDate": "2016-09-27",
+            "highlights": ["Android", "Bootstrap", "Sysadmin", "Twitter-API"],
+            "summary": "During my time as a freelance developer I've been tasked to create a variety of applications and websites. Namely, I've made an Android app for a non-profit organization Knowledge Ecology International. In addition, I've created and set up hosting for portfolio websites. Finally, I created and maintained popular Open Source Applications such as Democracy Droid! and The Treasure Map."
+        },
+        {
+            "company": "Ecole Elementaire Bruxelles",
+            "position": "Teaching Assistant",
+            "location": "Paris, France",
+            "startDate": "2016-01-01",
+            "endDate": "2016-07-04",
+            "highlights": ["Scratch"],
+            "summary": "I taught video game development and basic programming to three classes of nine and ten year old children. This included basic concepts such as loops, conditionals, two dimensional planes, and threading. In addition, I taught video-game storyline, art, and music design."
+        },
+        {
+            "company": "McGill Digital Humanities Project",
+            "position": "Researcher",
+            "location": "Montreal, Canada",
+            "startDate": "2015-01-01",
+            "endDate": "2015-06-21",
+            "highlights": ["Voyant-Tools", "NLTK", "TextBlob", "Regex", "BeautifulSoup4", "Text Analysis"],
+            "summary": "I was part of a research team who was given access to a newly cleaned corpus of texts from early modern England. The corpus comprises of over 40,000 texts. As a researcher, I crafted a research question and then I used various text-manipulation tools in order to test my hypothesis against the corpus of data."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Recurse Center",
+            "area": "",
+            "studyType": "Recurser",
+            "location":"New York",
+            "gpa":"",
+            "startDate": "2016-09-27",
+            "endDate": "2016-12-15",
+            "note": "My time at Recurse involved a variety of projects and activities which have greatly improved my capacities as a programmer. Among my projects, and those I've worked on with others, three were particularly rewarding and challenging:",
+            "projects": ["Implemented a chess AI",
+                         "Developed and Deployed an API and Database",
+                         "Implemented the BitTorrent protocol and client"]
+        },
+        {
+            "institution": "McGill University",
+            "area": "",
+            "studyType": "Master of Religious Studies",
+            "location":"Montreal Canada",
+            "gpa":"",
+            "startDate": "2013-09-01",
+            "endDate": "2015-06-21",
+            "note": "A comparison of ancient literary practice and the Copy Left movement",
+            "projects": ["The Work of Text in the Age of Digital Reproduction: ", "A Comparison of Ancient Literary Practice and the Copy Left Movement"]
+        },
+        {
+            "institution": "McGill University",
+            "area": "",
+            "gpa":"",
+            "location":"Montreal Canada",
+            "studyType": "Bachelor of Religious Studies",
+            "startDate": "2009-09-01",
+            "endDate": "2013-06-21",
+            "note": "Focus on exegesis of classical texts and philosophy of religion."
+        }],
+    "skills": [
+        {
+            "name": "Languages",
+            "keywords": ["Go", "Python",
+                         "Java", "PHP",
+                         "Bash"]
+        },
+        {
+            "name": "Frameworks",
+            "keywords": ["Django", "Flask",
+                         "Bootstrap", "libGDX",
+                         "Arduino"]
+        },
+        {
+            "name": "Tools",
+            "keywords": ["Git", "Command line",
+                         "WebScraping", "WebSockets",
+                         "Tokens/Encryption", "XML",
+                        "readthedocs"]
+        },
+        {
+            "name": "Databases",
+            "keywords": ["MySQL", "SQLite",
+                         "PostgresSQL"]
+        },
+        {
+            "name": "API",
+            "keywords": ["Twitter", "OpenStreetMap",
+                         "GovTrack", "Github",
+                         "Youtube"]
+        },
+        {
+            "name": "Other",
+            "keywords": ["Communication", "Critical Theory",
+                         "Editing", "English",
+                         "French", "Latin"]
+        }
+
+    ]
+}
