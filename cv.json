@@ -26,6 +26,8 @@
             "location": "",
             "startDate": "2015-05-01",
             "endDate": "2016-09-27",
+            "start": "May 2015",
+            "end": "September 2016",
             "highlights": ["Android", "Bootstrap", "Sysadmin", "Twitter-API"],
             "summary": "I created a variety of applications and websites. Namely, I published an Android app for the non-profit organization Knowledge Ecology International. In addition, I created and set up hosting for portfolio websites. I also created and maintained popular Open Source Applications such as Democracy Droid! and The Treasure Map."
         },
@@ -35,6 +37,8 @@
             "location": "Paris, France",
             "startDate": "2016-01-01",
             "endDate": "2016-07-04",
+            "start": "Janruary 2016",
+            "end": "July 2016",
             "highlights": ["Scratch", "Fundementals"],
             "summary": "I taught video game development and basic programming to three classes of nine and ten year old children. This included basic concepts such as loops, conditionals, two dimensional planes, and threading. In addition, I taught video-game storyline, art, and music design."
         },
@@ -44,6 +48,8 @@
             "location": "Montreal, Canada",
             "startDate": "2015-01-01",
             "endDate": "2015-06-21",
+            "start": "Janruary 2015",
+            "end": "June 2015",
             "highlights": ["Voyant-Tools", "NLTK", "TextBlob", "Regex", "BeautifulSoup4", "Text Analysis"],
             "summary": "I was part of a research team who was given access to a newly cleaned corpus of texts from early modern England. The corpus comprises of over 40,000 texts. As a researcher, I crafted a research question and then I used various text-manipulation tools in order to test my hypothesis against the corpus of data."
         }
@@ -57,6 +63,8 @@
             "gpa":"",
             "startDate": "2016-09-27",
             "endDate": "2016-12-15",
+            "start": "September 2016",
+            "end": "December 2016",
             "note": "At the Recurse Center participated in a variety of projects and activities which have greatly improved my capacities as a programmer. Among my projects, and those I collaborated on with others, three were particularly rewarding and challenging:",
             "projects": ["Implemented a chess AI and websocket client",
                          "Developed and Deployed an API and Database",
@@ -70,6 +78,8 @@
             "gpa":"",
             "startDate": "2013-09-01",
             "endDate": "2015-06-21",
+            "start": "September 2013",
+            "end": "June 2015",
             "note": "Focus on sociology of religion and critical theory.",
             "projects": ["  The Work of Text in the Age of Digital Reproduction: ", "A Comparison of Ancient Literary Practice and the Copy Left Movement"]
         },
@@ -81,6 +91,8 @@
             "studyType": "Bachelor of Religious Studies",
             "startDate": "2009-09-01",
             "endDate": "2013-06-21",
+            "start": "September 2009",
+            "end": "June 2013",
             "note": "Focus on exegesis of classical texts (in Latin and Greek) and the philosophy of religion."
         }],
     "skills": [
