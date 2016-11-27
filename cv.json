@@ -141,14 +141,16 @@
     "volunteer": [
         {
             "organization": "Ghess",
+            "startDate": "2016-01-01",
             "website": "http://ghess-chess.herokuapp.com/",
             "summary": "A chess engine, written from scratch in Go; it includes PGN and FEN notation parsing/generation, a websocket GUI, and a fast effective AI.",
             "highlights": [
-                "Go", "MiniMax", "WebSockets"
+                "Go", "MiniMax", "WebSockets", "Keystore", "AI", "Benchmarks"
             ]
         },
         {
             "organization": "Democracy Droid!",
+            "startDate": "2015-01-01",
             "website": "https://play.google.com/store/apps/details?id=com.workingagenda.democracydroid",
             "summary": "An unofficial Democracy Now! application for streaming and downloading their podcasts. A popular application with hundred of active users around the world.",
             "highlights": [
@@ -157,6 +159,7 @@
         },
         {
             "organization": "The Treasure Map",
+            "startDate": "2014-01-01",
             "website": "http://treasure.plyp.org/",
             "summary": "A Web Application for Mapping Free stuff from Craigslist.",
             "highlights": [
@@ -165,6 +168,7 @@
         },
         {
             "organization": "KEI Online",
+            "startDate": "2013-01-01",
             "website": "https://play.google.com/store/apps/details?id=org.keionline.keionline",
             "summary": "The official application for the non-profit Knowledge Ecology International. Parse KEI's youtube, blog, twitter feed.",
             "highlights": [
@@ -173,6 +177,7 @@
         },
         {
             "organization": "Fissure GIF",
+            "startDate": "2011-01-01",
             "website": "https://github.com/polypmer/fissure-android",
             "summary": "An Android app for generating and viewing GIFS; popular in the open source community (F-Droid) and translated into French and Japanese.",
             "highlights": [
@@ -181,6 +186,7 @@
         },
         {
             "organization": "Wink",
+            "startDate": "2012-01-01",
             "website": "https://github.com/polypmer/wink",
             "summary": "A PHP flat file photo gallery, built with minimal functionality and extendibility in mind.",
             "highlights": [
@@ -189,6 +195,7 @@
         },
         {
             "organization": "Chesscargot",
+            "startDate": "2009-01-01",
             "website": "http://play.plyp.org",
             "summary": "A chess server designed to play slow games.",
             "highlights": [
@@ -198,10 +205,30 @@
         {
             "organization": "Barnacle",
             "website": "https://github.com/polypmer/barnacle",
+            "startDate": "2010-01-01",
             "summary": "A music streaming server for hosting your music collection, designed for a local network.",
             "highlights": [
                 "Go", "Javascript", "Networks"
             ]
+        },
+        {
+            "organization": "Muse",
+            "startDate": "2008-01-01",
+            "website": "http://realmess.plyp.org",
+            "summary": "Proof of concept: A django-powered social network. 'Obliges productivity. Agree to certain conditions of creative production, under a contract either alone or with others.'",
+            "highlights": [
+                "Python", "Django", "SQLite", "ORM"
+            ]
+        },
+        {
+            "organization": "Fenestrate",
+            "startDate": "2007-01-01",
+            "website": "https://chrome.google.com/webstore/detail/fenestrate/bpaccmfpmigikfeedodhkegmjahmpmok",
+            "summary": "A Firefox & Chrome WebExtension for displaying the source code of a website as your mouse overs over it.",
+            "highlights": [
+                "Javascript", "WebExtensions", "Chrome API"
+            ]
         }
+
     ]
 }
