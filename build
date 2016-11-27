@@ -1,0 +1,1 @@
+hackmyresume BUILD cv.json TO cv.html -t jsonresume-theme-paper/ && wkhtmltopdf -L 2 -R 2  T 2 -s Letter cv.html cv.pdf
