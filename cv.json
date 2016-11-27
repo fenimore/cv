@@ -132,10 +132,76 @@
         }
 
     ],
-  "references": [
-      {
-        "name": "Upon Request",
-        "reference": ""
-      }
-  ]
+    "references": [
+        {
+            "name": "Upon Request",
+            "reference": ""
+        }
+    ],
+    "volunteer": [
+        {
+            "organization": "Ghess",
+            "website": "http://ghess-chess.herokuapp.com/",
+            "summary": "A chess engine, written from scratch in Go; it includes PGN and FEN notation parsing/generation, a websocket GUI, and a fast effective AI.",
+            "highlights": [
+                "Go", "MiniMax", "WebSockets"
+            ]
+        },
+        {
+            "organization": "Democracy Droid!",
+            "website": "https://play.google.com/store/apps/details?id=com.workingagenda.democracydroid",
+            "summary": "An unofficial Democracy Now! application for streaming and downloading their podcasts. A popular application with hundred of active users around the world.",
+            "highlights": [
+                "Java", "Android", "XML", "Streaming"
+            ]
+        },
+        {
+            "organization": "The Treasure Map",
+            "website": "http://treasure.plyp.org/",
+            "summary": "A Web Application for Mapping Free stuff from Craigslist.",
+            "highlights": [
+                "Python", "Flask", "Leaflet", "WebScraping", "Geolocation"
+            ]
+        },
+        {
+            "organization": "KEI Online",
+            "website": "https://play.google.com/store/apps/details?id=org.keionline.keionline",
+            "summary": "The official application for the non-profit Knowledge Ecology International. Parse KEI's youtube, blog, twitter feed.",
+            "highlights": [
+                "Java", "Android", "Twitter", "Youtube", "XML"
+            ]
+        },
+        {
+            "organization": "Fissure GIF",
+            "website": "https://github.com/polypmer/fissure-android",
+            "summary": "An Android app for generating and viewing GIFS; popular in the open source community (F-Droid) and translated into French and Japanese.",
+            "highlights": [
+                "Java", "Android", "Compression"
+            ]
+        },
+        {
+            "organization": "Wink",
+            "website": "https://github.com/polypmer/wink",
+            "summary": "A PHP flat file photo gallery, built with minimal functionality and extendibility in mind.",
+            "highlights": [
+                "PHP", "Authentication", "Bootstrap", "REST"
+            ]
+        },
+        {
+            "organization": "Chesscargot",
+            "website": "http://play.plyp.org",
+            "summary": "A chess server designed to play slow games.",
+            "highlights": [
+                "PHP", "MySQL"
+            ]
+        },
+        {
+            "organization": "Barnacle",
+            "website": "https://github.com/polypmer/barnacle",
+            "summary": "A music streaming server for hosting your music collection, designed for a local network.",
+            "highlights": [
+                "Go", "Javascript", "Networks"
+            ]
+        }
+    ]
 }
