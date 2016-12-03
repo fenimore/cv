@@ -1,0 +1,197 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a modified ONE COLUMN version of
+% the following template:
+% 
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{deedy-resume-openfont}
+\definecolor{links}{HTML}{006400}
+%\hypersetup{colorlinks=true,urlcolor=links}
+%\hypersetup{colorlinks=true, urlcolor=links,pdfborderstyle={/S/U/W 1},pdfborder=0 0 1}
+%\hypersetup{%
+%  colorlinks=true,% hyperlinks will be coloured
+%  linkcolor=green,% hyperlink text will be green
+%  linkbordercolor=red,% hyperlink border will be red
+%}
+
+%\makeatletter
+%\Hy@AtBeginDocument{%
+%  \def\@pdfborder{0 0 1}% Overrides border definition set with colorlinks=true
+%  \def\@pdfborderstyle{/S/U/W 1}% Overrides border style set with colorlinks=true
+                                % Hyperlink border style will be underline of width 1pt
+%}
+%\makeatother
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{.6\textwidth}
+{\Huge Fenimore {\textbf{Love}}}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{.3\textwidth}
+Email:  \href{mailto:fenimoreplove@gmail.com}{fenimoreplove@gmail.com}\\
+Github: \href{https://github.com/polypmer}{@polypmer}
+\end{minipage}
+\namesection{}{} % for some reason...
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Projects
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{Ghess}
+\descript{| golang chess engine and ai}
+\href{https://ghess-chess.herokuapp.com/}{A chess engine in Go; it supports PGN and includes a Websocket GUI and a fast and effective AI.}
+\sectionsep
+
+\runsubsection{Democracy Droid!}
+\descript{| java android app for media streaming}
+\href{https://play.google.com/store/apps/details?id=com.workingagenda.democracydroid}{A Democracy Now! Android App for streaming and downloading podcasts. It is a popular application with hundred of active users around the world.}
+\sectionsep
+
+\runsubsection{the treasure map}
+\descript{| python free stuff mapper}
+\href{http://treasure.plyp.org}{ Flask Application which scrapes and geolocates free stuff.}
+\sectionsep
+
+\runsubsection{Wink}
+\descript{| php flat file photo gallery}
+\href{http://wink.plyp.org}{A PHP flat file photo gallery, with Bootstrap, REST endpoints, and authentication.}
+\sectionsep
+
+\runsubsection{Muse}
+\descript{| django social network}
+\href{http://realmess.plyp.org/}{A Django social network which encourages and tracks creative production.}
+\sectionsep
+
+\runsubsection{Fissure}
+\descript{| java android app for gifs}
+\href{https://github.com/polypmer/fissure-android}{An Android app for generating and viewing GIFs; it is popular in the open source community (F-Droid) and translated into French and Japanese.}
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+\runsubsection{Recurse Center}
+\descript{| participant }
+\location{September 2016 – Present \textbullet{}  New York, NY}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Implemented a chess AI and websocket client in Go
+\item Built a PostgreSQL database and JSON API for an Android App that puts reddit-style comments onto a map in Go
+\item Implemented the BitTorrent protocol for distributed file-sharing in a command line client in Go
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Ecole élémentaire Bruxelles}
+\descript{| programming teaching assistant }
+\location{January 2016 – July 2016 \textbullet{}  Paris, France}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Taught video game development using Scratch
+\item Worked through fundamental concepts such as loops, conditionals, two dimensional planes, and threading
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Knowledge Ecology International}
+\descript{| developer }
+\location{May 2015 – September 2016}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Published an Android app for a non-profit organization, Knowledge Ecology International
+\item Worked with Twitter and Youtube API to aggregate their data
+\end{tightemize}
+\sectionsep
+
+
+\runsubsection{McGill Digital Humanities Project}
+\descript{| researcher }
+\location{January 2015 – July 2015 \textbullet{}  Montreal, QC}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Used Python, NTLK, and Regex to analyze a large corpuse of text from early modern England
+\item Developed and tested a hypothesis on criminality and secularity in early literary practice
+\end{tightemize}
+\sectionsep
+
+\section{Languages}
+\subsection{Go, Python, Java, PHP} 
+Django, Flask, Bootstrap, libGDX, Arduino \textbullet{} MySQL, PostgreSQL, BoltDB
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education}
+\runsubsection{McGill University}
+\descript{| Master in Religious Studies}
+\location{September 2013 - July 2015 \textbullet{} Montreal, QC}
+The Work of Text in the Age of Digital Reproduction:
+\textit{A comparison of Ancient Literary Practice and the Copy Left Movement}
+
+\runsubsection{McGill University}
+\descript{| Bachelor in Religious Studies}
+\location{September 2009 - July 2013 \textbullet{} Montreal, QC}
+Focus on exegesis of classical texts (Latin and Greek) and the philosophy of religion.
+\sectionsep
+
+
+
+\end{document}  \documentclass[]{article}
