@@ -83,7 +83,7 @@
 \hspace{-5.5mm}
 \begin{minipage}[t]{.6\textwidth}
 {\Huge Fenimore {\textbf{Love}}}\\
-\href{mailto:exorable.ludos@gmail.com}{exorable.ludos@gmail.com} \textbullet{} 666-420-2020 \textbullet{} \href{https://timenotclocks.com}{timenotclocks.com}\\
+\href{mailto:exorable.ludos@gmail.com}{exorable.ludos@gmail.com} \textbullet{} 571-314-7727 \textbullet{} \href{https://timenotclocks.com}{timenotclocks.com}\\
 \end{minipage}
 \hfill
 \begin{minipage}[t]{.3\textwidth}
@@ -103,11 +103,23 @@ Github: \href{https://github.com/fenimore}{@fenimore}
 \location{September 2018 – Present \textbullet{}  New York, NY}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Maintain complex model building data pipelines
-\item Analyze and explore large datasets with Spark and SQL
+\item Designed and built reporting pipeline to provide insights for internal operations:
+  \begin{itemize}
+  \item Created an ETL pipeline processing hundreds of GB a day with Spark
+  \item Created a Flask service backed by Postrgres as the data sink for BI
+  \item Set up an Hbase cluster for storing hundreds of thousands of keys
+  \end{itemize}
+\item Build a model building and scoring pipeline, predicting conversion events for our clients:
+  \begin{itemize}
+  \item Moved storage from HDFS to S3 and designed new deploy processes for complex ETL pipelines
+  \item Designed and implemented a framework for running ETL pipelines with on-demand EMR clusters
+  \item Set up modeling and scoring pipeline to process 3 Terabytes a day
+  \item Review data science pull requests and ensure engineering standards are met
+  \end{itemize}
+\item Analyze and explore large datasets with Spark and SparkSQL
 \item Manage and configure data streams, data dependencies, and data stores using Kafka, Luigi, Hdfs
-\item Build a reporting platform and pipeline, integrated with BI tools
 \item Help a team of data scientists bring their experiments to production
+\item Train and onboard new hires for our new and growing remote team
 \end{tightemize}
 \sectionsep
 
@@ -116,58 +128,24 @@ Github: \href{https://github.com/fenimore}{@fenimore}
 \location{May 2017 – September 2018 \textbullet{}  New York, NY}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \textit{Deloitte Digital acquired the Magnetic engineering team (including me) and IP}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Maintained and built a reporting ETL pipeline with Spark, Kafka, Hadoop, and Luigi
-\item Wrote Spark jobs to run on AWS instances and consume 3 to 4 terabytes of data a day
+\item Designed and built a reporting ETL pipeline with Spark, Kafka, Hadoop, and Luigi
+\item Wrote Spark jobs for ETL pipelines consuming 3 to 4 terabytes of data a day
 \item Manipulated, transformed, and visualized data using SparkSQL, Pandas, Impala
 \item Rapidly built and maintained microservices in Python using Flask and PostgreSQL
 \end{tightemize}
 \sectionsep
-
-\runsubsection{Ecole élémentaire Bruxelles}
-\descript{| teaching assistant }
-\location{January 2016 – July 2016 \textbullet{}  Paris, France}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}
-\item Taught fundemental video game development (loops, conditions, coordinates, threading) with Scratch
-\end{tightemize}
-\sectionsep
-
-\runsubsection{McGill Digital Humanities Project}
-\descript{| digital researcher }
-\location{January 2015 – July 2015 \textbullet{}  Montréal, QC}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
-\begin{tightemize}
-\item Analyzed a large corpus of text from early modern England with Regex, NLTK, and Python
-\end{tightemize}
-\sectionsep
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Languages
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Languages}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\subsection{Python, Go, Java, PHP, Ruby, HTML/CSS/JS}
-Spark, Hadoop, Luigi, Kafka \textbullet{} Flask, Bootstrap, Vue.js \textbullet{} PostgreSQL, HBase, MySQL, Impala
-\sectionsep
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Projects
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Projects}
+\subsection{Python, Go, SQL \textbullet{} Java, Rust, HTML/CSS/JS, PHP, Ruby}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
-\runsubsection{Democracy Droid!}
-\descript{| java android app for media streaming}
-\href{https://play.google.com/store/apps/details?id=com.workingagenda.democracydroid}{A Democracy Now! podcast app; it has thousands of active users around the world.}
+Spark, Luigi, Kafka, Hadoop \textbullet{} Linux, Docker \textbullet{} PostgreSQL, HBase, Impala \textbullet{} Flask, Bootstrap, Vue.js
 \sectionsep
-
-\runsubsection{Ghess}
-\descript{| golang chess engine and ai}
-\href{https://ghess-chess.herokuapp.com/}{A chess engine in Go; it supports PGN and includes a Websocket GUI and a fast and effective AI.}
-\sectionsep
-
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Education
@@ -176,6 +154,7 @@ Spark, Hadoop, Luigi, Kafka \textbullet{} Flask, Bootstrap, Vue.js \textbullet{}
 \section{Education}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \runsubsection{Recurse Center}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \descript{| retreat participant }
 \location{September 2016 – December 2016 \textbullet{}  New York, NY}
 The Recurse Center is a self-directed, community-driven educational retreat for programmers in New York City.\newline
@@ -184,6 +163,7 @@ My principal projects were a Chess AI and a BitTorrent client, both written in G
 
 
 \runsubsection{McGill University}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \descript{| Master in Religious Studies}
 \location{September 2013 - July 2015 \textbullet{} Montréal, QC}
 The Work of Text in the Age of Digital Reproduction:
@@ -191,6 +171,7 @@ The Work of Text in the Age of Digital Reproduction:
 \sectionsep % remove for more space
 
 \runsubsection{McGill University}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \descript{| Bachelor in Religious Studies}
 \location{September 2009 - July 2013 \textbullet{} Montréal, QC}
 Focus on exegesis of classical texts (Latin and Greek) and the philosophy of religion.
