@@ -1,7 +1,9 @@
-===== 
+=====
 
 Now that overleaf is no longer free or something, here are the steps to build:
 
-1. install `ttf-lato` (the lato light font)
-2. install `texlive-extra`, `texlive-core`, `texlive-bin`
+texlive-basic
+texlive-latexrecommended texlive-latexextra
+texlive-fontsrecommended texlive-fontsextr
+
 3. run command `$ xelatex main.tex`
